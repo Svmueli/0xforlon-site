@@ -23,7 +23,7 @@ export default function Contact() {
           </p>
           <p className="output">
             <a
-              href="https://github.com/0xFORLON"
+              href="https://github.com/0xforlon"
               target="_blank"
               rel="noopener"
             >

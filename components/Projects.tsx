@@ -1,18 +1,26 @@
 const PROJECTS = [
   {
-    name: "Bitewing EMR",
+    name: "ReconFlow",
     description:
-      "Full-stack dental clinic management system — patient records, scheduling, and billing for a clinic in Kitui, Kenya.",
-    tags: ["Full-stack", "Healthcare"],
-    status: "In development",
+      "Automated recon pipeline that chains subdomain enumeration, live-host probing, and template-based scanning into a single run, then outputs a deduplicated, triaged findings report.",
+    tags: ["Automation", "Recon", "Python"],
+    status: "Planned",
     url: undefined,
   },
   {
-    name: "0xFORLON",
+    name: "Juice Shop Pentest Report",
     description:
-      "This site — a self-hosted write-up log and portfolio, built with Next.js and markdown-based content.",
-    tags: ["Next.js", "TypeScript"],
-    status: "Live",
+      "A full mock engagement against OWASP Juice Shop: scoping document, methodology, CVSS-scored findings with proof-of-concept steps, and a client-style remediation report.",
+    tags: ["Web Security", "Pentest", "Reporting"],
+    status: "In progress",
+    url: undefined,
+  },
+  {
+    name: "PromptBreaker Lab",
+    description:
+      "A deliberately vulnerable LLM chatbot built to practice prompt injection, data exfiltration, and tool-abuse attacks, with a write-up of each attack and its mitigation.",
+    tags: ["AI Security", "LLM", "Lab"],
+    status: "Planned",
     url: undefined,
   },
 ];
